@@ -27,10 +27,13 @@ Moving within 15 centimeters of the sensor will play an aggressive audio alert o
 ## Circuit Diagram and Schematic
 
 ### Breadboard Layout
-![Screenshot 2025-05-12 184126](https://github.com/user-attachments/assets/e7e663dd-c9e9-471b-9674-2df4a22da511)
+![Breadboard Layout](https://github.com/user-attachments/assets/e7e663dd-c9e9-471b-9674-2df4a22da511)
 
 ### Circuit Schematic
-![Screenshot 2025-05-11 160018](https://github.com/user-attachments/assets/d9ce0682-4f70-4247-b644-87e5b839d4fd)
+![Circuit Schematic](https://github.com/user-attachments/assets/d9ce0682-4f70-4247-b644-87e5b839d4fd)
+
+## Demo
+[Video Demo](https://drive.google.com/file/d/1A6Ar55RKtZArzim9-CnAboWGmMGdUVhR/view?usp=sharing)
 
 ## Notes
 - In building the sensor circuit, the 9-volt battery can be replaced with a constant 9-volt bench power supply
