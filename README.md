@@ -1,10 +1,10 @@
 # FPGA-UltrasonicRadar
-1-dimensional object mapper using a Xilinx Spartan-7 FPGA board and an HC-SR04 Ultrasonic Sensor. Displays real-time object position on an HDMI or VGA display.
+1-dimensional object mapper created in SystemVerilog using a Xilinx Spartan-7 FPGA board and an HC-SR04 Ultrasonic Sensor. Displays real-time object position on an HDMI or VGA display.
 
 ## System Description
 This is a SystemVerilog-based 1D ultrasonic radar using the HC-SR04 ultrasonic sensor and a Xilinx Spartan-7 FPGA that outputs real-time distance data for the closest object to the sensor. 
 
-Distance is displayed through a live centimeter-based distance tracker, and a red on-screen 'X' will move along the screen based on the object's live position changes. Positional benchmarks are included for the user.
+Distance is displayed through a live centimeter-based distance tracker, and a red on-screen 'X' will move along the screen based on the object's live position changes. Positional benchmarks are included for the user. Distance range is 2-400 cm.
 
 Moving within 15 centimeters of the sensor will play an aggressive audio alert on the connected audio device and rapidly flash the screen in red and black.
 
