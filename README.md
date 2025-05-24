@@ -11,7 +11,7 @@ Moving within 15 centimeters of the sensor will play an aggressive audio alert o
 ## Setup
 1. Plug in programming cable to a system running Xilinx Vivado.
 2. Wire 9 V power supply to breadboard circuit as shown in circuit diagram.
-3. Wire TRIG (green wire) and ECHO (orange wire) to any GPIO connectors on FPGA.
+3. Wire TRIG (green wire) and ECHO (orange wire) to the J13 and J14 (JA3_P, JA3_N) GPIO connectors on the FPGA, respectively.
    - **Note**: This implementation is for the RealDigital Urbana Board. Using any other board's GPIO pins will require the constraints (.xdc) file to be modified accordingly.
 4. Connect an audio output device e.g. headphones, speaker to the audio output port of the FPGA.
 5. Load .xpr project file in Vivado (or all necessary source files if using a different development platform).
