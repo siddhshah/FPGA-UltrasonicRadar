@@ -38,6 +38,7 @@ Moving within 15 centimeters of the sensor will play an aggressive audio alert o
 ## Notes
 - In building the sensor circuit, the 9-volt battery can be replaced with a constant 9-volt bench power supply
 - No block design or Vitis files are required, just ensure the HDMI/DVI Encoder and Clocking Wizard IPs are instantiated.
+  - Clocking wizard should be 100 MHz, single-ended. HDMI/DVI encoder behaves as a VGA to HDMI controller when HDMI is selected in the IP configuration.
 
 ## Roadmap
 - 2-dimensional version with the use of a rotating servo motor is being researched
