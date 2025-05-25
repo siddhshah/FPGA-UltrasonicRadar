@@ -24,13 +24,13 @@ A demonstration video of the operation of this radar can be found at the bottom 
 4. Pressing BTN0 (again, change constraints if using a different board) will reset the system.
 
 ## Circuit Diagram and Schematic
-
 ### Breadboard Layout
 ![Breadboard Layout](https://github.com/user-attachments/assets/e7e663dd-c9e9-471b-9674-2df4a22da511)
 
 ### Circuit Schematic
 ![Circuit Schematic](https://github.com/user-attachments/assets/d9ce0682-4f70-4247-b644-87e5b839d4fd)
 
+## System Operation
 ### Breadboard Circuit Operation
 The HC-SR04 Ultrasonic Sensor has 4 pins: TRIG, ECHO, Vcc, GND. All pins (except GND) operate at a 5 volt input. I did not have a 5 volt power supply on hand (my FPGA only outputs 3.3 V), so I created a voltage divider circuit to step down a 9 V load to 5 V.
 The TRIG pin is the input: a short pulse is sent to the sensor, signaling it to record a measurement. The sensor does this by outputting an 8-cycle sonic burst. Upon reception of the reflected burst, the sensor outputs an ECHO signal that remains high for a duration proportional to the time it took for the 8-cycle burst to come back to the sensor after it was sent. A longer time between sending and receiving indicates the burst traveled a longer distance before it was reflected back by the nearest object, or traveled for less time if the burst came back quicker. Therefore, the longer the ECHO, the farther the object.
